@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+    <!-- Background -->
+    <rect width="400" height="300" fill="#DFEECE"/>
+
+    <!-- Leaf Shapes -->
+    <path d="M100 50 Q150 20, 200 50 Q250 80, 200 110 Q150 140, 100 110 Z"
+        fill="#2E7D32" opacity="0.3"/>
+
+    <path d="M250 150 Q300 120, 350 150 Q400 180, 350 210 Q300 240, 250 210 Z"
+        fill="#4CAF50" opacity="0.4"/>
+
+    <path d="M50 200 Q100 170, 150 200 Q200 230, 150 260 Q100 290, 50 260 Z"
+        fill="#81C784" opacity="0.5"/>
+
+    <!-- Earth Symbol -->
+    <circle cx="200" cy="150" r="60" fill="none" stroke="#1B5E20" stroke-width="3"/>
+    <path d="M170 120
+             A30 30 0 0 1 230 120
+             Q250 140, 230 160
+             Q210 180, 190 160
+             Q170 140, 170 120"
+        fill="#1B5E20" opacity="0.6"/>
+
+    <!-- Text -->
+    <text x="200" y="280"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#2E7D32">
+    </text>
+</svg>

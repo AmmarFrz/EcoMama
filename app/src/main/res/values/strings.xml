@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Eco Mama</string>
+    <string name="login_logo_description">Login Logo</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+
+    <!-- Judul Halaman -->
+    <string name="register_title">Register</string>
+
+    <!-- Hint untuk Input Fields -->
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <!-- Tombol -->
+    <string name="btn_register">Register</string>
+
+    <!-- Redirect Text -->
+    <string name="login_redirect">Already have an account? Login</string>
+
+    <!-- Content Description -->
+    <string name="register_logo_description">Register Logo</string>
+
+    <!-- Pesan Validasi -->
+    <string name="error_empty_full_name">Please enter your full name</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_empty_username">Please enter a username</string>
+    <string name="error_empty_password">Please enter a password</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+
+    <!-- Judul Halaman -->
+    <string name="main_title">Eco Mama</string>
+    <string name="welcome_title">Selamat Datang</string>
+    <string name="tagline">Ayo lestarikan bumi selalu</string>
+
+    <!-- Label Tombol Navigasi -->
+    <string name="btn_daur_ulang">Daur Ulang</string>
+    <string name="btn_tips_energi">Tips Hemat Energi</string>
+    <string name="btn_edu_eco">Edu Eco</string>
+
+    <!-- Hint dan Placeholder -->
+    <string name="search_hint">Cari informasi lingkungan</string>
+
+    <!-- Deskripsi Konten -->
+    <string name="desc_globe_image">Ilustrasi Bumi</string>
+
+    <!-- Pesan Informasi -->
+    <string name="info_no_internet">Periksa koneksi internet Anda</string>
+    <string name="info_loading">Memuat data...</string>
+
+    <!-- Pesan Kesalahan -->
+    <string name="error_generic">Terjadi kesalahan, coba lagi</string>
+    <string name="error_network">Gagal terhubung ke jaringan</string>
+
+    <!-- Tombol Umum -->
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_retry">Coba Lagi</string>
+
+    <!-- Kategori Lingkungan -->
+    <string name="category_recycling">Daur Ulang</string>
+    <string name="category_energy_saving">Hemat Energi</string>
+    <string name="category_education">Pendidikan Lingkungan</string>
+
+    <!-- Share Content -->
+    <string name="share_subject">Tips Ramah Lingkungan dari Eco Mama</string>
+    <string name="share_text">Mari lestarikan bumi kita! #EcoMama</string>
+
+    <!-- Deskripsi Gambar -->
+    <string name="globe_image_description">Ikon dunia</string>
+    <string name="recycle_image_description">Ikon daur ulang</string>
+    <string name="lightbulb_image_description">Ikon tips hemat energi</string>
+    <string name="edu_eco_image_description">Ikon Edu Eco</string>
+
+    <!-- Teks Halaman Utama -->
+    <string name="welcome_text">Eco Mama</string>
+    <string name="welcome_message">Selamat Datang</string>
+    <string name="subtitle">Ayo lestarikan bumi selalu</string>
+
+    <!-- Teks Tombol dan Deskripsi -->
+    <string name="button_recycle">Daur Ulang</string>
+    <string name="button_tips_energy">Tips Hemat Energi</string>
+    <string name="button_edu_eco">Edu Eco</string>
+
+    <!-- Deskripsi Gambar -->
+    <string name="recycle_logo_description">Logo daur ulang</string>
+
+    <!-- Judul Halaman -->
+    <string name="page_title">Selamat Datang di EcoMama</string>
+
+    <!-- Konten Halaman -->
+    <string name="page_content">
+        Mari bersama-sama melestarikan bumi kita dengan menerapkan kebiasaan ramah lingkungan.
+        Gunakan panduan di bawah ini untuk memulai langkah kecil yang berarti.
+    </string>
+
+
+    <!-- Judul Halaman -->
+    <string name="tips_energy_title">Tips Hemat Energi</string>
+
+    <!-- Pengingat Harian -->
+    <string name="daily_reminder">Pengingat Harian:</string>
+    <string name="tip_turn_off_lights">- Matikan lampu di pagi hari setelah matahari terbit.</string>
+    <string name="tip_unplug_devices">- Cabut peralatan elektronik yang tidak digunakan.</string>
+    <string name="tip_use_led_bulbs">- Gunakan lampu LED untuk penghematan energi.</string>
+    <string name="tip_use_natural_light">- Manfaatkan cahaya alami saat siang hari.</string>
+
+    <!-- Tombol Kembali -->
+    <string name="back_button">Kembali</string>
+
+    <!-- Section Titles -->
+    <string name="section_introduction">Pengenalan</string>
+    <string name="section_conservation">Konservasi</string>
+    <string name="section_water_management">Manajemen Air</string>
+    <string name="section_recycling">Daur Ulang</string>
+
+    <!-- Introduction Section -->
+    <string name="intro_description">Platform edukasi lingkungan untuk meningkatkan kesadaran berkelanjutan</string>
+
+    <!-- Conservation Section -->
+    <string name="conservation_title">Strategi Konservasi Lingkungan</string>
+
+    <string-array name="conservation_points">
+        <item>Kurangi Limbah</item>
+        <item>Gunakan Ulang Sumber Daya</item>
+        <item>Lindungi Habitat Alami</item>
+        <item>Praktik Berkelanjutan</item>
+    </string-array>
+
+    <!-- Water Management Section -->
+    <string name="water_management_title">Pengelolaan Sumber Daya Air</string>
+
+    <string-array name="water_points">
+        <item>Tangkap Air Hujan</item>
+        <item>Irigasi Efisien</item>
+        <item>Daur Ulang Air</item>
+        <item>Hemat Konsumsi Air</item>
+    </string-array>
+
+    <!-- Recycling Section -->
+    <string name="recycling_title">Strategi Daur Ulang</string>
+
+    <string-array name="recycling_points">
+        <item>Pilah Sampah</item>
+        <item>Kompos Organik</item>
+        <item>Daur Ulang Kreatif</item>
+        <item>Kurangi Sampah Plastik</item>
+    </string-array>
+
+
+</resources>

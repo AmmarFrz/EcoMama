@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFEECE"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Eco Mama"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="50dp"/>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/globe" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selamat Datang"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ayo lestarikan bumi selalu" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/btnPendaur"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="@string/app_name"
+                android:padding="16dp"
+                android:src="@drawable/ic_recycle" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/button_recycle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/btnTips"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="@string/app_name"
+                android:padding="16dp"
+                android:src="@drawable/ic_lightbulb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/button_tips_energy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/btnInfo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="@string/app_name"
+                android:padding="16dp"
+                android:src="@drawable/ic_edueco" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/button_edu_eco" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
